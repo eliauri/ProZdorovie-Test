@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/swiper-bundle.min.css" />
+    <script src="/js/swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="/image/logo.svg" alt="Лого компании">
+                        </a>
+                    </div>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__manu"><span></span> Каталог</li>
+                            <li><a href="#">Партнерам</a></li>
+                            <li><a href="#">Проверить код</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__phone open-modal" data-modal="contact">
+                        <img src="/image/phone.svg" alt="">
+                    </div>
+                    <button class="header__gamburger gamburger">
+                        <span></span>
+                    </button>
+                </div>
+                <div class="header__right">
+                    <div class="header__search ">
+                        <input type="text" class="input" placeholder="Искать товар">
+                        <button type="submit"><img src="/image/icon-loop.png" alt=""></button>
+                    </div>
+                    <button class="header__button button button--border open-modal"
+                        data-modal="contact">Позвонить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="container">
+            <div class="banner__wrapper">
+                <h2 class="banner__title">Бесплатная доставка</h2>
+                <p class="banner__info">Стоимость доставки не взымается с покупателя и оплачивается продавцом</p>
+            </div>
+        </div>
+    </div>
+    <main>
+        <nav class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__wrapper">
+                    <a class="breadcrumbs__backspace" href="#"><img src="/image/backspace.png" alt=""></a>
+                    <ul class="breadcrumbs__list">
+                        <li><a href="#" class="text">Главная</a></li>
+                        <li><a href="#" class="text">Каталог</a></li>
+                        <li><a href="#" class="text">Релатон</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="product">
+            <div class="container">
+                <h1 class="title tittle--big">Релатон / Натуральное средство для восстановления слуха капли</h1>
+                <div class="product__reviews">
+                    <ul class="product__stars">
+                        <li><img src="/image/Star.svg" alt=""></li>
+                        <li><img src="/image/Star.svg" alt=""></li>
+                        <li><img src="/image/Star.svg" alt=""></li>
+                        <li><img src="/image/Star.svg" alt=""></li>
+                        <li><img src="/image/Star.svg" alt=""></li>
+                    </ul>
+                    <a href="#" class="text">86 отзывов</a>
+                </div>
+                <div class="product__info">
+                    <div class="product__photo">
+                        <div class="product__thumbs swiper">
+                            <div class="slider__prev"><img src="image/arrow.svg" alt=""></div>
+                            <div class="swiper-container" id="product__thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="/image/slider/img1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img4.jpg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="slider__next"><img src="image/arrow.svg" alt=""></div>
+                        </div>
+                        <div class="product__images swiper">
+                            <div class="swiper-container" id="product__images">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="/image/slider/img1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="/image/slider/img4.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__about">
+                        <h2 class="title">О товаре</h2>
+                        <p id="productInfo">Капли от недержания мочи Дифорол, 50 мл. ПОРА НАЧАТЬ БОРЬБУ С НЕДЕРЖАНИЕМ!
+                            Непроизвольное
+                            мочеиспускание - распространенная проблема, которая затрагивает как женщин, так и мужчин.
+                            Если не начать решать ее вовремя, грозит операция, которая не дает 100% гарантии
+                            положительного результата. Начните лечиться сегодня, чтобы потом не было поздно. «Дифорол» -
+                            натуральный растительный препарат, который поможет справиться с недержанием мочи в
+                            кратчайшие сроки и не позволит проблеме вернуться. НОВЕЙШИЕ ТЕХНОЛОГИИ XXI ВЕКА. В 2016 году
+                            группой ученых из стран Европы, США и Японии был разработан и протестирован препарат,
+                            нормализующий работу мочевыделительной системы, аналогов которому сегодня не существует.
+                            Комплекс растительных экстрактов позволяет не просто временно устранить непроизвольное
+                            мочеиспускание, но и восстановить утраченные функции мочевого пузыря. «Дифорол» — правильное
+                            решение: Мгновенное воздействие Мягкое избавление от проблемы Профилактика рецидивов.
+                            Отсутствие противопоказаний и побочных действий. Комплексное решение проблемы.
+                            МНН/Действующее вещество Экстракт толокнянки обыкновенной: Помогает блокировать ложный
+                            сигнал к мочеиспусканию и сокращает частоту позывов. Экстракт полевого хвоща: Обладает
+                            сильным противовоспалительным действием, способствует заживлению микротравм внутренних
+                            органов. </p>
+                        <div class="product__moreinfo text" id="unwrapInfo">Развернуть описание</div>
+                        <button class="product__button button open-modal" data-modal="product">Купить сейчас</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="container">
+                <h2 class="title">Отзывы</h2>
+                <div class="reviews__list">
+                    <div class="reviews__prev"><img src="image/reviews-arrow.svg" alt=""></div>
+                    <div class="swiper">
+
+                        <div class="swiper-container" id="reviews__list">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide reviews__card">
+                                    <div class="reviews__person">
+                                        <div class="reviews__image"><img src="/image/slider/rew/person1.jpg" alt="">
+                                        </div>
+                                        <div class="reviews__personInfo">
+                                            <div class="reviews__line">
+                                                <h3 class="reviews__name">Наталия</h3>
+                                                <span class="reviews__date">07 июня 2022</span>
+                                            </div>
+
+                                            <ul class="reviews__stars">
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="reviews__feedback">
+                                        Капли от недержания мочи Дифорол, 50 мл. ПОРА НАЧАТЬ БОРЬБУ С НЕДЕРЖАНИЕМ!
+                                        Непроизвольное мочеиспускание - распространенная проблема, которая затрагивает
+                                        как
+                                        женщин, так и мужчин.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide reviews__card">
+                                    <div class="reviews__person">
+                                        <div class="reviews__image"><img src="/image/slider/rew/person2.jpg" alt="">
+                                        </div>
+                                        <div class="reviews__personInfo">
+                                            <div class="reviews__line">
+                                                <h3 class="reviews__name">Наталия</h3>
+                                                <span class="reviews__date">07 июня 2022</span>
+                                            </div>
+
+                                            <ul class="reviews__stars">
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="reviews__feedback">
+                                        Капли от недержания мочи Дифорол, 50 мл. ПОРА НАЧАТЬ БОРЬБУ С НЕДЕРЖАНИЕМ!
+                                        Непроизвольное мочеиспускание - распространенная проблема, которая затрагивает
+                                        как
+                                        женщин, так и мужчин.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide reviews__card">
+                                    <div class="reviews__person">
+                                        <div class="reviews__image"><img src="/image/slider/rew/person3.jpg" alt="">
+                                        </div>
+                                        <div class="reviews__personInfo">
+                                            <div class="reviews__line">
+                                                <h3 class="reviews__name">Наталия</h3>
+                                                <span class="reviews__date">07 июня 2022</span>
+                                            </div>
+
+                                            <ul class="reviews__stars">
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="reviews__feedback">
+                                        Капли от недержания мочи Дифорол, 50 мл. ПОРА НАЧАТЬ БОРЬБУ С НЕДЕРЖАНИЕМ!
+                                        Непроизвольное мочеиспускание - распространенная проблема, которая затрагивает
+                                        как
+                                        женщин, так и мужчин.
+                                    </p>
+                                </div>
+                                <div class="swiper-slide reviews__card">
+                                    <div class="reviews__person">
+                                        <div class="reviews__image"><img src="/image/slider/rew/person4.jpg" alt="">
+                                        </div>
+                                        <div class="reviews__personInfo">
+                                            <div class="reviews__line">
+                                                <h3 class="reviews__name">Наталия</h3>
+                                                <span class="reviews__date">07 июня 2022</span>
+                                            </div>
+
+                                            <ul class="reviews__stars">
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                                <li><img src="/image/Star.svg" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="reviews__feedback">
+                                        Капли от недержания мочи Дифорол, 50 мл. ПОРА НАЧАТЬ БОРЬБУ С НЕДЕРЖАНИЕМ!
+                                        Непроизвольное мочеиспускание - распространенная проблема, которая затрагивает
+                                        как
+                                        женщин, так и мужчин.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="reviews__next"><img src="image/reviews-arrow.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="bestseller">
+            <div class="container">
+                <h2 class="title">Лидеры продаж</h2>
+                <div class="bestseller__wrapper">
+                    <a href="#" class="bestseller__item">
+                        <div class="bestseller__image"><img src="/image/bestseller/bestseller1.jpg" alt=""></div>
+                        <h3 class="bestseller__name">Релатон</h3>
+                        <div class="bestseller__type">Мягкое и правильное очищение ушей</div>
+                        <ul class="bestseller__stars">
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li>54</li>
+                        </ul>
+                        <button class="bestseller__button button open-modal" data-modal="product">
+                            Купить
+                        </button>
+                    </a>
+                    <a href="#" class="bestseller__item">
+                        <div class="bestseller__image"><img src="/image/bestseller/bestseller2.jpg" alt=""></div>
+                        <h3 class="bestseller__name">Diafast</h3>
+                        <div class="bestseller__type">Мягкое и правильное очищение сосудов</div>
+                        <ul class="bestseller__stars">
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li>54</li>
+                        </ul>
+                        <button class="bestseller__button button open-modal" data-modal="product">
+                            Купить
+                        </button>
+                    </a>
+                    <a href="#" class="bestseller__item">
+                        <div class="bestseller__image"><img src="/image/bestseller/bestseller3.jpg" alt=""></div>
+                        <h3 class="bestseller__name">Detonator</h3>
+                        <div class="bestseller__type">Массажный крем-гель, увеличение и возбуждение</div>
+                        <ul class="bestseller__stars">
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li>54</li>
+                        </ul>
+                        <button class="bestseller__button button open-modal" data-modal="product">
+                            Купить
+                        </button>
+                    </a>
+                    <a href="#" class="bestseller__item">
+                        <div class="bestseller__image"><img src="/image/bestseller/bestseller4.jpg" alt=""></div>
+                        <h3 class="bestseller__name">Реноксин</h3>
+                        <div class="bestseller__type">Натуральный комплекс для поддержания мочеполовой системы</div>
+                        <ul class="bestseller__stars">
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li><img src="/image/Star.svg" alt=""></li>
+                            <li>54</li>
+                        </ul>
+                        <button class="bestseller__button button open-modal" data-modal="product">
+                            Купить
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="callback">
+            <div class="container">
+                <div class="callback__wrapper">
+                    <h2 class="title">Оставить заявку</h2>
+                    <p class="callback__info">Оставьте заявку и наш менеджер с вами свяжется для оформления заказа</p>
+                    <form action="#">
+                        <input type="text" class="input" placeholder="Имя Фамилия">
+                        <input type="text" class="input" placeholder="Номер телефона">
+                        <button type="submit" class="button">Отправить</button>
+                    </form>
+                    <div class="callback__politocal">
+                        Нажимая «Подписаться» вы соглашаетесь с <a href="#">Условиями использования сайта</a> и <a
+                            href="">Политикой обработки персональных данных</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__slogan">
+                    <div class="footer__image">
+                        <img src="/image/logo-white.svg" alt="" class="footer__image--white">
+                        <img src="/image/logo.svg" alt="" class="footer__image--black">
+                    </div>
+                    <p>На этом сайте представлены только эксклюзивные продукты, созданные только из натуральных
+                        компонентов для поддержания здоровья и красоты вашего организма.</p>
+                </div>
+                <div class="footer__contact">
+                    <h2 class="footer__title">Контакты</h2>
+                    <ul>
+                        <li>Россия: <a href="#">+7 (000) 000 00 00</a></li>
+                        <li>Казахстан: <a href="#">+7 (000) 000 00 00</a></li>
+                        <li>Ел. почта:<a href="#">support@ampulla.ru </a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact accordion">
+                    <h2 class="footer__title">Покупателю</h2>
+                    <ul>
+                        <li><a href="#">Обратная связь</a></li>
+                        <li><a href="#">Оставить отзыв</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__politicals">
+                <a href="#">Все права защищены</a> / <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <div class="overlay" id="overlay-modal"></div>
+    <div class="modal modal--big" data-modal="product">
+        <div class="modal__close"><img src="/image/x-close.svg" alt=""></div>
+        <div class="modal__wrapper">
+            <div class="modal__left">
+                <h2 class="title">Оформление заказа</h2>
+                <p class="modal__desctiption">
+                    Для оформления заказа оставьте свой номер телефона и наш специалист с вами свяжется в течение часа.
+                </p>
+                <form action="#" class="modal__form">
+                    <input type="text" class="input" placeholder="Имя фамилия">
+                    <input type="text" class="input" placeholder="Номер телефона">
+                    <button type="submit" class="button open-modal" data-modal="orderSucces">Отправить</button>
+                </form>
+            </div>
+            <div class="modal__right">
+                <div class="modal__productImage"><img src="/image/product.jpg" alt=""></div>
+                <h3 class="title modal__productTitle">Релатон</h3>
+                <p class="modal__productType">Мягкое и правильное очищение ушей</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal--response" data-modal="orderSucces">
+        <div class="modal__close"><img src="/image/x-close.svg" alt=""></div>
+        <h2 class="title">Ваш заказ принят</h2>
+        <p class="modal__desctiption">
+            Благодарим Вас за доверие нашей производственной компании. Ожидайте звонка звонка специалиста для уточнения заказа.
+        </p>
+        <button class="button  open-modal" data-modal="orderFaild">Спасибо</button>
+    </div>
+    <div class="modal modal--response" data-modal="orderFaild">
+        <div class="modal__close"><img src="/image/x-close.svg" alt=""></div>
+        <h2 class="title">Упс! Произошла ошибка</h2>
+        <p class="modal__desctiption">
+            На данный момент страница не отвечает. Попробуйте повторить попытку.
+        </p>
+        <div class="modal__image"><img src="/image/Character.jpg" alt=""></div>
+    </div>
+    <div class="modal" data-modal="contact">
+        <div class="modal__close"><img src="/image/x-close.svg" alt=""></div>
+        <h2 class="title">Контакты</h2>
+        <p class="modal__desctiption">
+            Вы можете связаться с нашим специалистом самостоятельно или оставить свой номер телефона и мы вам перезвоним
+        </p>
+        <ul class="modal__contacts">
+            <li>Россия <a href="tel:70000000000">+7 (000) 000 00 00</a></li>
+            <li>Казахстан <a href="tel:70000000000">+7 (000) 000 00 00</a></li>
+        </ul>
+        <hr>
+        <form action="#" class="modal__form">
+            <input type="text" class="input" placeholder="Имя фамилия">
+            <input type="text" class="input" placeholder="Номер телефона">
+            <button type="submit" class="button">Отправить</button>
+        </form>
+        <p class="modal__political">
+            Нажимая «Отправить» вы соглашаетесь с <a href="#">Условиями использования сайта</a> и <a href="#">Политикой
+                обработки персональных данных</a> .
+        </p>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
